@@ -1,0 +1,38 @@
+.message-input {
+  display: flex;
+  align-items: center;
+  background-color: #f1f1f1;
+  padding: 10px;
+  height: 50px;
+}
+
+.message-input-icons {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.message-input-icons .icon {
+  font-size: 20px;
+  color: #999;
+  margin-right: 10px;
+}
+
+.message-input input {
+  flex: 1;
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  outline: none;
+}
+
+.message-input button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.message-input button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
